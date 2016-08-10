@@ -1,0 +1,35 @@
+/*去掉默认的样式*/
+*{
+	margin:0;
+	padding:0;
+}
+/*修改本身标签的吗默认样式*/
+html,body{
+	width:100%;
+	height:auto;
+	font:12px/1.5 "微软雅黑";
+	color:#000;
+	background-color: #ededec;
+}
+
+ul,li{
+	list-style: none;
+	margin:0;
+	padding: 0;
+}
+
+a{
+	color: #000;
+	text-decoration:none;
+	outline:none;
+}
+a:hover{
+	color:#f60;
+}
+input{
+	outline: none;
+}
+img{
+	outline: none;
+	border:none;
+}
